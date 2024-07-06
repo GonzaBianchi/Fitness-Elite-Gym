@@ -40,5 +40,5 @@ app.use("/api/classes", classRouter.getRouter());
 
 app.listen(PORT,() =>{
     console.clear()
-    console.log(`Escuchando en http://localhost:${PORT}`)
+    console.log(`Escuchando en https://gymfitness-cpgx.onrender.com:${PORT}`)
 })
